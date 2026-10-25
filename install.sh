@@ -11,7 +11,7 @@ set -euo pipefail
 
 HUEGO_VERSION="v0.2.0"
 HUEGO_REPO="mathisarends/huego"
-PLUGIN_URL="https://github.com/mathisarends/waybar-hue"
+PLUGIN_URL="https://github.com/mathisarends/omarchy-hue"
 BIN_DIR="${HOME}/.local/bin"
 work=""
 

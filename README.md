@@ -20,7 +20,7 @@ anywhere else, like the Hue app, a switch or a sensor, show up live.
 ### One command
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/mathisarends/waybar-hue/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/mathisarends/omarchy-hue/main/install.sh | bash
 ```
 
 This installs **[huego v0.2.0](https://github.com/mathisarends/huego/releases/tag/v0.2.0)**
@@ -54,7 +54,7 @@ to `~/.local/bin` (checksum-verified) and adds the widget with
 3. Add the widget:
 
    ```sh
-   omarchy plugin add https://github.com/mathisarends/waybar-hue
+   omarchy plugin add https://github.com/mathisarends/omarchy-hue
    ```
 
 If huego is missing or the bridge isn't paired yet, the panel tells you and
@@ -235,7 +235,7 @@ every block, in TypeScript and in QML.
 To try local changes, add the repo folder as a plugin:
 
 ```sh
-omarchy plugin add ~/code/waybar-hue
+omarchy plugin add ~/code/omarchy-hue
 ```
 
 ## License
