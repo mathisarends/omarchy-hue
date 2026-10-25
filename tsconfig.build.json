@@ -1,0 +1,24 @@
+{
+  // Compiles src/ for the QML JavaScript engine. ES2017 is what every
+  // Quickshell build understands, so newer syntax gets lowered and newer
+  // library functions are a type error.
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["ES2017"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": [],
+    "rootDir": "src",
+    "outDir": "build",
+    "newLine": "lf",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "rewriteRelativeImportExtensions": true
+  },
+  "include": ["src"]
+}

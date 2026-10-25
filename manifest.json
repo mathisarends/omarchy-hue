@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "mathisarends.hue",
+  "name": "Hue",
+  "version": "0.1.0",
+  "author": "mathisarends",
+  "license": "MIT",
+  "description": "Philips Hue in the Omarchy bar: rooms, zones, scenes, brightness and favorites, powered by the huego CLI.",
+  "kinds": ["bar-widget"],
+  "activation": "on-demand",
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Hue",
+    "description": "One bulb in the bar. Click for a keyboard-first panel with every room and zone, their scenes and brightness, and your own favorites.",
+    "category": "Home",
+    "aliases": ["hue", "lights", "philips-hue"],
+    "defaultSection": "right",
+    "allowMultiple": false,
+    "defaults": {
+      "target": "home",
+      "step": 5,
+      "transition": 0,
+      "showPercent": false,
+      "showZones": true,
+      "showHints": true,
+      "favoritesFile": "",
+      "huego": "huego",
+      "keys": {}
+    },
+    "schema": [
+      { "key": "target", "type": "string", "label": "Bar icon controls", "defaultValue": "home", "description": "home, room:<name> or zone:<name>. The icon, scroll wheel and right click act on it." },
+      { "key": "step", "type": "integer", "label": "Brightness step (%)", "min": 1, "max": 25, "step": 1, "defaultValue": 5, "description": "How far one scroll notch or one arrow key moves the brightness." },
+      { "key": "transition", "type": "integer", "label": "Fade (seconds)", "min": 0, "max": 10, "step": 1, "defaultValue": 0, "description": "Fade time for switching, dimming and scenes. 0 keeps the bridge default." },
+      { "key": "showPercent", "type": "boolean", "label": "Show brightness in the bar", "defaultValue": false },
+      { "key": "showZones", "type": "boolean", "label": "Show zones", "defaultValue": true },
+      { "key": "showHints", "type": "boolean", "label": "Show key hints", "defaultValue": true, "description": "The short shortcut line at the bottom of the panel." },
+      { "key": "favoritesFile", "type": "path", "label": "Favorites file", "defaultValue": "", "description": "Defaults to ~/.config/omarchy/hue/favorites.conf." },
+      { "key": "huego", "type": "string", "label": "huego command", "defaultValue": "huego", "description": "Name or full path of the huego binary." }
+    ]
+  }
+}

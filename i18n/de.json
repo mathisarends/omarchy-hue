@@ -1,0 +1,47 @@
+{
+  "title": "Hue",
+  "target.home": "Zuhause",
+  "target.notFound": "%1 nicht gefunden",
+
+  "group.off": "Aus",
+  "group.lights": { "one": "%1 von %2 Lampe", "other": "%1 von %2 Lampen" },
+
+  "meta.loading": "Verbinde",
+  "meta.allOff": "Alle Lichter aus",
+  "meta.lightsOn": { "one": "%1 von %2 Lampe an", "other": "%1 von %2 Lampen an" },
+
+  "tooltip.off": "%1 ist aus",
+  "tooltip.on": "%1 ist an",
+  "tooltip.brightness": "%1 auf %2 %",
+
+  "status.missing.title": "huego ist nicht installiert",
+  "status.missing.detail": "Das Widget spricht über die huego-CLI mit deiner Hue Bridge. Installiere sie, das Panel erkennt sie dann von selbst.",
+  "status.notConfigured.title": "Bridge noch nicht gekoppelt",
+  "status.notConfigured.detail": "Drück den Link-Knopf auf deiner Hue Bridge und kopple sie im Terminal, das sich öffnet.",
+  "status.unreachable.title": "Bridge nicht erreichbar",
+  "status.unreachable.detail": "Prüf, ob die Bridge Strom hat und im selben Netzwerk wie dieser Rechner ist.",
+  "status.error.title": "huego hatte ein Problem",
+  "status.error.detail": "Die Meldung darunter kommt direkt von huego.",
+
+  "action.install": "huego installieren",
+  "action.pair": "Bridge koppeln",
+  "action.retry": "Erneut versuchen",
+
+  "section.favorites": "Favoriten",
+  "section.rooms": "Räume",
+  "section.zones": "Zonen",
+
+  "favorites.edit": "Favoriten bearbeiten",
+  "favorites.empty": "Noch keine Favoriten. Klick hier, um eine Favoriten-Datei mit zwei Beispielen anzulegen.",
+  "favorites.noneInFile": "Deine Favoriten-Datei hat noch keine Einträge. Klick hier, um sie zu bearbeiten.",
+
+  "scenes.none": "Hier gibt es noch keine Szenen.",
+
+  "hint.move": "bewegen",
+  "hint.brightness": "Helligkeit",
+  "hint.toggle": "an/aus",
+  "hint.scenes": "Szenen",
+  "hint.allOff": "alles aus",
+
+  "error.generic": "huego konnte das nicht ausführen."
+}

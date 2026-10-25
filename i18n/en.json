@@ -1,0 +1,47 @@
+{
+  "title": "Hue",
+  "target.home": "Home",
+  "target.notFound": "%1 not found",
+
+  "group.off": "Off",
+  "group.lights": { "one": "%1 of %2 light", "other": "%1 of %2 lights" },
+
+  "meta.loading": "Connecting",
+  "meta.allOff": "All lights off",
+  "meta.lightsOn": { "one": "%1 of %2 light on", "other": "%1 of %2 lights on" },
+
+  "tooltip.off": "%1 is off",
+  "tooltip.on": "%1 is on",
+  "tooltip.brightness": "%1 at %2%",
+
+  "status.missing.title": "huego is not installed",
+  "status.missing.detail": "This widget talks to your Hue bridge through the huego CLI. Install it and the panel picks it up on its own.",
+  "status.notConfigured.title": "Bridge not paired yet",
+  "status.notConfigured.detail": "Press the link button on your Hue bridge, then pair it in the terminal that opens.",
+  "status.unreachable.title": "Bridge not reachable",
+  "status.unreachable.detail": "Check that the bridge is powered and on the same network as this computer.",
+  "status.error.title": "huego ran into a problem",
+  "status.error.detail": "The message below comes straight from huego.",
+
+  "action.install": "Install huego",
+  "action.pair": "Pair bridge",
+  "action.retry": "Try again",
+
+  "section.favorites": "Favorites",
+  "section.rooms": "Rooms",
+  "section.zones": "Zones",
+
+  "favorites.edit": "Edit favorites",
+  "favorites.empty": "No favorites yet. Click here to create a favorites file with two examples.",
+  "favorites.noneInFile": "Your favorites file has no entries yet. Click here to edit it.",
+
+  "scenes.none": "No scenes here yet.",
+
+  "hint.move": "move",
+  "hint.brightness": "brightness",
+  "hint.toggle": "on/off",
+  "hint.scenes": "scenes",
+  "hint.allOff": "all off",
+
+  "error.generic": "huego could not do that."
+}

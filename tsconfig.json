@@ -1,0 +1,12 @@
+{
+  // Type checks the tests, which node runs straight from TypeScript.
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "lib": ["ES2023"],
+    "types": ["node"],
+    "rootDir": ".",
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": ["src", "tests"]
+}
